@@ -1,0 +1,1 @@
+docker run -d --name activemq -p 61616:61616 -p 8161:8161 -e ACTIVEMQ_ADMIN_LOGIN=activemq -e ACTIVEMQ_ADMIN_PASSWORD=activemq webcenter/activemq
